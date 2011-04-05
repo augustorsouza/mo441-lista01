@@ -8,7 +8,7 @@ class Procez
   def initialize(uid)
     @uid = uid
     @n = N    # number of active processes 
-    @k = nil  # number of processes which sorted 1
+    @k = 0  # number of processes which sorted 1
     @r = nil  # number randommically chossen in this round
     @round = 0
     @status = :active

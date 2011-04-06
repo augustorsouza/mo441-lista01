@@ -11,7 +11,7 @@ class Procez
     @count = N
     @send = nil
     @phase = 0
-    @status = nil
+    @status = :not_leader
   end
   
   def trans(msg)  

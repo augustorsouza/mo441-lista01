@@ -29,7 +29,6 @@ class Procez
         end
       end
     else
-      @status = :not_leader
       @send = msg
     end
   end
